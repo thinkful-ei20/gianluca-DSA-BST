@@ -342,45 +342,57 @@ function main() {
 	BST.insert(7, 7);
 	BST.insert(8, 8);
 
-	// console.log('[=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/]');
-	// console.log('Before:\n');
+	/*
 
-	// InOrderTraversal(BST);
+	 	//[=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=GET HEIGHT/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=]
 
-	// BST.remove(5);
-	// console.log('\n[=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/]');
-	// console.log('After Removing key: \'5\'...\n');
-	//InOrderTraversal(BST);
+		console.log('Height is: ', getHeight(BST));
 
-	//const brokenBST = new BinarySearchTree();
+	*/
 
-	// brokenBST._BrokenInsert(3, 3);
-	// brokenBST._BrokenInsert(1, 1);
-	// brokenBST._BrokenInsert(4, 4);
-	// brokenBST._BrokenInsert(6, 6);
-	// brokenBST._BrokenInsert(9, 9);
-	// brokenBST._BrokenInsert(2, 2);
-	// brokenBST._BrokenInsert(5, 5);
-	// brokenBST._BrokenInsert(7, 7);
-	// brokenBST._BrokenInsert(8, 8);
+	/*
 
-	// console.log('Height is: ', getHeight(BST));
+		//[=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=IS A BST/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=]
 
-	// console.log('Is Tree: ',isBST(BST));
-	// console.log('Is Tree:', isBST(brokenBST));
-	// let count = 0;
-	// let num = 3;
+	const brokenBST = new BinarySearchTree();
 
-	// let obj = {
-	// 	count: 0,
-	// 	num: 5
-	// };
+	brokenBST._BrokenInsert(3, 3);
+	brokenBST._BrokenInsert(1, 1);
+	brokenBST._BrokenInsert(4, 4);
+	brokenBST._BrokenInsert(6, 6);
+	brokenBST._BrokenInsert(9, 9);
+	brokenBST._BrokenInsert(2, 2);
+	brokenBST._BrokenInsert(5, 5);
+	brokenBST._BrokenInsert(7, 7);
+	brokenBST._BrokenInsert(8, 8);
 
-	//reverseOrderTraversal(BST);
+	console.log('Is Tree: ',isBST(BST));
+	console.log('Is Tree:', isBST(brokenBST));
 
-	//thirdLargest(BST, obj);
+	*/
 
-	const unbalancedTree = {
+	/*
+
+
+		//[=/=/=/=/=/=/=/=/=/=/=/=/THIRD LARGEST (Nth LARGEST)/=/=/=/=/=/=/=/=/=/=/=/=/=]
+
+
+	let obj = {
+		count: 0,
+		num: 5
+	};
+	thirdLargest(BST, obj);
+
+	*/
+
+
+	/*
+
+
+		//[=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/BALANCED BST=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=]
+
+
+	const test_unbalancedTree = {
 		left: {
 			left: {
 				left:null,
@@ -427,7 +439,27 @@ function main() {
 		}
 	};
 
-	console.log('This tree is balanced: ',isBalanced(unbalancedTree));
+	console.log('This tree is balanced: ',isBalanced(test_unbalancedTree));
+
+	*/
+
+
+	/*
+
+		//[=/=/=/=/=/=/=/=/=/=/=/=/=/=TRAVERSAL FUNCTION TESTS=/=/=/=/=/=/=/=/=/=/=/=/=/=]
+
+
+
+	console.log('[=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/]\n');
+
+	InOrderTraversal(BST);
+
+	console.log('\n[=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/]\n');
+
+	reverseOrderTraversal(BST);
+
+	*/
+
 }
 
 main();
